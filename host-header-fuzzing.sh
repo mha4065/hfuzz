@@ -19,7 +19,7 @@ printf "
 
 "
 
-usage() { echo -e "${yellow}Usage:${NC} ./hfuzz.sh -d domain.tld -w wordlist.txt -s subdomain.txt [-t <int>] [-mc <int>] [-fc <int>]" 1>&2; exit 1; }
+usage() { echo -e "${yellow}Usage:${NC} ./hfuzz.sh -d domain.tld -w wordlist.txt -s subdomain.txt [-t <int>] [-m <int>] [-f <int>]" 1>&2; exit 1; }
 
 while getopts "d:s:w:t:m:f:" flag
 do
