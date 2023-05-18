@@ -1,8 +1,8 @@
 # hfuzz
 hfuzz is a powerful tool to fuzzing host header in three method using `ffuf` tool.
- 1. host: <word>
- 2. host: <word>.domain.tld
- 3. host: <subdomain>
+ 1. host: `<word>`
+ 2. host: `<word>.domain.tld`
+ 3. host: `<subdomain>`
 
 
 ## Requirements
